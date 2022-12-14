@@ -1,0 +1,172 @@
+body {
+  margin: 0;
+  background-color: #cccccc;
+}
+table {
+  border-spacing: 0;
+  width: 100%;
+}
+td {
+  padding: 0;
+}
+img {
+  border: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.center {
+  width: 100%;
+  table-layout: fixed;
+  background-color: #cccccc;
+  padding-bottom: 60px;
+}
+
+.main-table {
+  background-color: #dcf1ff;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 600px;
+  border-spacing: 0;
+  font-family: sans-serif;
+  color: #171a1b;
+}
+
+.two-columns {
+  text-align: center;
+  font-size: 0px;
+}
+
+.two-columns .column {
+  width: 100%;
+  max-width: 300px;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+}
+.title {
+  font-size: 2rem;
+  margin-left: 4rem;
+}
+.paragraph {
+  width: 80%;
+  max-width: 100%;
+  font-size: 1rem;
+  margin-left: 4rem;
+}
+
+.button {
+  text-align: center;
+  color: #ffffff;
+  background-color: #0056f1;
+  margin-left: 4rem;
+  padding: 0.5rem 1.5rem;
+  border-radius: 25px;
+  border: none;
+}
+
+.button:hover {
+  cursor: pointer;
+  background-color: #0d6394;
+}
+
+.three-columns {
+  background-color: #ffffff;
+  text-align: center;
+  font-size: 0;
+  padding: 15px 0 25px;
+}
+
+.three-columns .column {
+  width: 100%;
+  max-width: 200px;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+}
+
+.three-columns .padding {
+  padding: 15px;
+}
+
+.three-columns .content {
+  font-size: 15px;
+  line-height: 20px;
+  padding: 0 5px;
+}
+
+.four-columns {
+  background-color: #dcf1ff;
+  text-align: center;
+  font-size: 0;
+  padding: 15px 0 25px;
+}
+
+.four-columns .column {
+  width: 100%;
+  max-width: 300px;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+}
+
+.four-columns .padding {
+  padding: 10px 10px;
+}
+
+.four-columns .content {
+  font-size: 15px;
+  line-height: 20px;
+  padding: 10px 15px;
+}
+
+.four-columns .content p {
+  width: 100%;
+  max-width: 200px;
+  text-align: center;
+}
+
+.two-columns.last {
+  padding: 15px 0;
+  width: 100%;
+}
+
+.two-columns .padding {
+  padding: 20px;
+}
+
+.two-columns .content {
+  font-size: 15px;
+  line-height: 20px;
+  text-align: left;
+}
+
+.two-columns .content.call {
+  padding-left: 5rem;
+}
+
+.tittle-button {
+  background-color: #ffffff;
+}
+
+.tittle-button p {
+  color: #666869;
+  font-size: 25px;
+}
+
+.tittle-button button {
+  text-align: center;
+  color: #ffffff;
+  font-weight: bold;
+  background-color: #0056f1;
+  padding: 0.5rem 1.5rem;
+  border-radius: 25px;
+  border: none;
+}
+
+.tittle-button button:hover {
+  cursor: pointer;
+  background-color: #0d6394;
+}
